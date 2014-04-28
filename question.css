@@ -66,17 +66,14 @@ body{
 	background: #86A1FA;
 	border-radius: 15px;
 	border: 1px solid #ababab;
-	width: 750px;
+	width: 840px;
 	margin-top: 20px;
-	margin-left: 25%;
+	margin-left: 18%;
 	position: absolute;
 	top: 0;
 	padding: 20px;
 }
 
-.lyrics{
-	
-}
 
 #operations{
 	font-family: "Didact Gothic", serif;
@@ -98,7 +95,7 @@ body{
 
 .center{
 	float: left;	
-	width: 500px;
+	width: 550px;
 	padding-left: 24%;
 	position: absolute;
 }
