@@ -14,16 +14,17 @@
 	</head>
 
 	<body>
-		<div id="intro_banner" class="first_page">
+	<div id="index">	
+		<div id="intro_banner">
 			<h1>
 				Welcome to the Hold Steady lyrics quiz!			
 			</h1>
-			<div id="intro_image" class="first_page">
+			<div id="intro_image">
 				<img src="./intro_image.jpg" alt="" id="cover_image">
 			</div>
-			<div id="intro_buttons" class="first_page">
-				<div id="how_to_play" class="first_page"><a class="what" href="#" alt="">How To Play</a></div>
-				<div id="new_game" class="first_page"><a class="new" href="#" alt="">+New Game</a></div>			
+			<div id="intro_buttons">
+				<div id="how_to_play"><a class="what" href="#">How To Play</a></div>
+				<div id="new_game"><a class="new" href="#">+New Game</a></div>			
 			</div>
 		</div>
 		
@@ -38,5 +39,63 @@
 					</div>
 				</div>
 			</div>
+		</div>
+		
+	<div id="game">
+		<div id="head">
+			<div class="lyrics">
+			</div>
+			<div id="speaker_div">
+			</div>
+		</div>
+		<div id="operations">		
+			<div class="left">
+				<div id="question_counter" class="counter">
+					<p>Question #</p>
+					<p id="question"></p>		
+				</div>
+			</div>		
+		
+			<div class="center">
+				<ul id="choices_list">
+				</ul>
+
+			</div>
+
+			<div class="right">
+				<div id="lights">
+					<div class="led unanswered"></div>	
+					<div class="led unanswered"></div>	
+					<div class="led unanswered"></div>	
+					<div class="led unanswered"></div>	
+					<div class="led unanswered"></div>	
+					<div class="led unanswered"></div>
+				</div>
+				
+				<div id="score_counter" class="counter">
+					<p>Current Score</p>
+					<p id="score"></p>			
+				</div>		
+			</div>
+		</div>
+		<div id="toggleScoreboard" class="first_page"><a class="scoreboard" href="#">Scoreboard</a></div>	
+	</div>
+		
+		<div class="overlay" id="scoreboard">
+				<div class="content">
+					<p id="scoreboardTitle"></p>
+					<div>
+						<ol id="responses">
+						</ol>
+						<div id="scoreboardLinks">
+							<a class="close" href="#">Close Scoreboard</a>						
+							<a class="replay" href="#">Play Again?</a>
+							<a class="home" href="#">Home</a>
+						</div>
+					</div>
+				</div>
+			</div>		
+		
+		<audio id="hint" src=""></audio>	
 	</body>
 </html>
